@@ -1,0 +1,16 @@
+.carousel-item {
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .carousel-item img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+
+  @media (max-width: 767.98px) {
+    .carousel-item {
+      height: 50vh; /* Set a smaller height for viewports smaller than 767.98px */
+    }
+  }
